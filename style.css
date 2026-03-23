@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+
+.menu {
+    width: 200px;
+    float: left;
+    background: #f4f4f4;
+    height: 100vh;
+}
+
+main {
+    margin-left: 210px;
+    padding: 20px;
+}
+
+footer {
+    clear: both;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
