@@ -1,8 +1,18 @@
-<?php include "header.php"; ?>
-<?php include "left_menu.php"; ?>
+<?php include "layout/header.php"; ?>
+<?php include "layout/left_menu.php"; ?>
 
 <main>
-    <h2>Main Page</h2>
+<?php
+
+$action = $_GET['action'] ?? 'main';
+
+if ($action === 'about') {
+    include "views/about.php";
+} else {
+    include "views/main.php";
+}
+
+?>
 </main>
 
-<?php include "footer.php"; ?>
+<?php include "layout/footer.php"; ?>
