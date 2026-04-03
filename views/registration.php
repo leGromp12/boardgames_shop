@@ -1,4 +1,4 @@
-<h2>Реєстрація</h2>
+<h2>Registraion</h2>
 
 <form method="post" action="index.php?action=registration">
     
